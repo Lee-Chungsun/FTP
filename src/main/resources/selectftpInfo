@@ -1,13 +1,13 @@
 <select id="C23_FTP_Info_Dao.listInterface" parameterClass="map" resultClass="hashmap" remapResults="true">
-		<![CDATA[
-			 SELECT FTP_IP
+	<![CDATA[
+	SELECT FTP_IP
             , FTP_PORT
             , FTP_ID
             , FTP_PWD
-			   FROM B1_FTP_INFORMATION_TP
-			  WHERE CORP_ID = '0001'
-			    AND USE_YN  = '1'
-			    AND TR_TC   = 'C'
-			    AND WORK_ID = 'S'
+   	FROM B1_FTP_INFORMATION_TP
+ 	WHERE CORP_ID = '0001'
+    	AND USE_YN  = '1'
+    	AND TR_TC   = 'C'
+    	AND WORK_ID = 'S'
         ]]>
 	</select>
