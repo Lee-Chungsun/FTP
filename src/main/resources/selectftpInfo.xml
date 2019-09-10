@@ -10,4 +10,4 @@
     	AND TR_TC   = 'C'
     	AND WORK_ID = 'S'
         ]]>
-	</select>
+</select>
